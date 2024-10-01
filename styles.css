@@ -1,0 +1,36 @@
+body {
+    background-color: #333;
+}
+
+.container {
+    max-width: 600px;
+}
+
+.heading {
+    color: azure;
+}
+
+.btncol {
+    background-color: transparent;
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task-details {
+    flex-grow: 1;
+}
+
+.completed span {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.task-buttons {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
